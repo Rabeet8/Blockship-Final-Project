@@ -3,14 +3,11 @@ require("dotenv").config({ path: ".env" });
 const { WHITELIST_CONTRACT_ADDRESS, METADATA_URL } = require("../constants");
 
 async function main() {
-  // Address of the whitelist contract that you deployed in the previous module
+  // Address of the whitelist contract that i have already deployed
   const whitelistContract = WHITELIST_CONTRACT_ADDRESS;
-  // URL from where we can extract the metadata for a Crypto Dev NFT
+  // URL from where we can extract the metadata for a  NFT
   const metadataURL = METADATA_URL;
-  /*
-  A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
-  so cryptoDevsContract here is a factory for instances of our CryptoDevs contract.
-  */
+ 
   const cryptoDevsContract = await ethers.getContractFactory("CryptoDevs");
 
   // deploy the contract
