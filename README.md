@@ -7,4 +7,4 @@ https://testnets.opensea.io/assets/0x1A560Be8f2f65c46265374FE27a6a7633BA690a6/1
 
 The NFT can only  be seen on this contract address 0x1A560Be8f2f65c46265374FE27a6a7633BA690a6
 
-you can see the deployed project by going to the environment section(scroll down a bit)
+you can see the deployed project by going to the environment section(go to the main page of this repo scroll down a bit)
