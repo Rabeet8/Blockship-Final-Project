@@ -49,9 +49,7 @@
           require(tokenIds < maxTokenIds, "Exceeded maximum Crypto Devs supply");
           require(msg.value >= _price, "Ether sent is not correct");
           tokenIds += 1;
-          //_safeMint is a safer version of the _mint function as it ensures that
-          // if the address being minted to is a contract, then it knows how to deal with ERC721 tokens
-          // If the address being minted to is not a contract, it works the same way as _mint
+      
           _safeMint(msg.sender, tokenIds);
       }
       function mint() public payable onlyWhenNotPaused {
