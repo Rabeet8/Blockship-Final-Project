@@ -11,6 +11,6 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "Blockship NFTs #" + tokenId,
       description: "Blockship NFTs is a collection of developers in crypto",
-      image: image_url + tokenId + ".png",
+      image: image_url + tokenId + ".svg",
     });
   }
